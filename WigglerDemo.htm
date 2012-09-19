@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.8.1.js" type="text/javascript"></script>
+    <script src="Scripts/wiggler.jquery.js" type="text/javascript"></script>
+    <link href="Scripts/wiggler.jquery.css" rel="stylesheet" type="text/css" />
+    <script>
+        $(document).ready(function () {
+            $('#menu li').wiggler();
+            $('p').wiggler();
+            $('div').wiggler();
+        }); 
+    </script>
+</head>
+<body>
+
+<ul id="menu">
+    <li>Home</li>
+    <li>Posts</li>
+    <li>About</li>
+    <li>Contact</li>
+</ul>
+
+<p>This is an example of wiggling text on hover.</p>
+
+<div>This is an example of wiggling text on hover.</div>
+</body>
+</html>
